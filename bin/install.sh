@@ -36,6 +36,7 @@ apt-get install -y \
 
 apt-get install -y \
     graphicsmagick \
+    imagemagick \
     zip \
     unzip \
     curl \
@@ -45,6 +46,8 @@ apt-get install -y \
     node-less \
     npm \
     pv
+
+apt-get upgrade -y
 
 #############################
 # Install tools
